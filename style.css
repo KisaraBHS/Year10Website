@@ -1,5 +1,13 @@
 /* A simple css reset */
 body,
+body {
+    background-image: url("images/toji.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
 html {
     margin: 0;
     padding: 0;
@@ -23,7 +31,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(22, 22, 22);
     text-align: center;
     position: relative;
 }
@@ -32,6 +40,7 @@ img {
 .hero-text {
     font-size: 4em;
     font-weight: bold;
+    color: rgb(10, 226, 226);
 }
 
 /* nice big font on a banner style background */
@@ -39,7 +48,7 @@ img {
     color: white;
     font-size: 2em;
     padding: 0.1em 3em;
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(247, 6, 6);
 }
 
 /* Three column grid with a nice big gap */
